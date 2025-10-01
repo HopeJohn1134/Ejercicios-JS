@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Suma hasta 9999</title>
+</head>
+<body>
+  <script>
+    let suma = 0;
+    let numero;
+
+    do {
+      numero = parseInt(prompt("Ingrese un número (9999 para terminar):"));
+      if (numero !== 9999) {
+        suma = suma + numero;
+      }
+    } while (numero !== 9999);
+
+    document.write("La suma acumulada es: " + suma + "<br>");
+
+    if (suma === 0) {
+      document.write("El valor es cero");
+    } else if (suma > 0) {
+      document.write("El valor es mayor a cero");
+    } else {
+      document.write("El valor es menor a cero");
+    }
+  </script>
+</body>
+</html>

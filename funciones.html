@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mostrar números</title>
+</head>
+<body>
+  <script>
+    function mostrarNumeros() {
+      let menor = parseInt(prompt("Ingrese el número menor:"));
+      let mayor = parseInt(prompt("Ingrese el número mayor:"));
+
+      for (let i = menor; i <= mayor; i++) {
+        document.write(i + " ");
+      }
+    }
+
+    // Llamamos a la función
+    mostrarNumeros();
+  </script>
+</body>
+</html>
