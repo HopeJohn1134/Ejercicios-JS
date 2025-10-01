@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Números con while</title>
+</head>
+<body>
+    <h2>Números del 1 al 25</h2>
+    <div id="pantalla"></div>
+
+    <script>
+        let i = 1;
+        let salida = document.getElementById("pantalla");
+            while (i <= 25) 
+            {
+                salida.innerHTML += String(i) + i + "<br>";
+                i++;
+            }
+      
+    </script>
+</body>
+</html>
